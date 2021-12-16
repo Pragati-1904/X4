@@ -11,6 +11,5 @@ COPY ./ /app/
 
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r /app/requirements.txt
-RUN docker-compose up -d
 WORKDIR /app/
-CMD ["python3 -m forwarder"]
+CMD python3 -m forwarder
