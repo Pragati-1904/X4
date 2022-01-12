@@ -9,7 +9,8 @@ from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
 Hey {}, I'm {}!
-I'm a bot used to forward messages from one chat to another.
+
+I'm a bot created by @Gamer_4560 used to forward messages from one chat to another.
 
 To obtain a list of commands, use /help.
 """
